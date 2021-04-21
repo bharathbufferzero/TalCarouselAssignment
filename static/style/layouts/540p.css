@@ -1,0 +1,53 @@
+
+#app {
+    position: relative;
+    overflow: hidden;
+    width: 960px;
+    height: 540px;
+    top: 50%;
+    margin: -270px auto 0 auto;
+    background-image: url(../../img/downloadbg.jpg);
+    background-repeat: no-repeat;
+    background-color: red;
+}
+
+#helloWorldLabel, #welcomeLabel {
+    display: block;
+    text-align: center;
+}
+
+#helloWorldLabel {
+    font-size: 45px;
+    padding-top: 128px;
+    margin-bottom:20px;
+    font-weight: bold;
+}
+
+#welcomeLabel {
+    font-size: 25px;
+    margin-bottom:50px;
+}
+
+#simplecarousel_mask {
+    top: 120px;
+}
+
+.description {
+    top: 50px;
+    font-size: 20px;
+}
+
+
+
+#carouselComponent > .carouselmask.horizontal {
+    width: 720px;
+}
+
+#carouselComponent > .carouselmask.vertical {
+    height: 450px;
+    width: 264px
+}
+
+#carouselComponent > .description {
+    margin-bottom: 32px;
+}
